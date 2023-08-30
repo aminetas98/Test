@@ -1,0 +1,11 @@
+
+elasticsearchHosts: http://elasticsearch-master:9200
+replicas: 1
+resources:
+  requests:
+    cpu: 
+    memory: 
+  limits:
+    cpu: 500m
+    memory: 800Mi
+
