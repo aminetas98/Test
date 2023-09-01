@@ -19,7 +19,16 @@ resources:
   limits:
     cpu: 1000m
     memory: 512M
+"
+resources:
+  requests:
+    cpu: 100m
+    memory: 512M
+  limits:
+    cpu: 1000m
+    memory: 512M
 
+    "
 persistence:
   enabled: false
 
